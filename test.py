@@ -1,7 +1,7 @@
 import unittest
 
 from display_log import LogLine
-from main import parse
+from parse import parse
 
 # the log line that will be used for testing
 exampleLogLine: str = """[2022-06-13T11:16:05.617Z] "GET /metrics HTTP/1.1" 200 - via_upstream - "-" 0 16352 2 2 "-" 
